@@ -62,6 +62,9 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
 
+## firebase cloud functions node modules
+functions/node_modules
+
 # Freeline
 freeline.py
 freeline/
@@ -83,3 +86,5 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+
