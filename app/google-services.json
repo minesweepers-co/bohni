@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "127160207499",
+    "firebase_url": "https://bohni-67cbf.firebaseio.com",
+    "project_id": "bohni-67cbf",
+    "storage_bucket": "bohni-67cbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127160207499:android:a9c4aa6514bb1af5912c8e",
+        "android_client_info": {
+          "package_name": "com.minesweepers.bohni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127160207499-gg4r3h49vcs3s7tmaqn8c0bjcm24jm0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyuazQkaGdkqKewze8a8_cKtqHAyyOhqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127160207499-gg4r3h49vcs3s7tmaqn8c0bjcm24jm0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
