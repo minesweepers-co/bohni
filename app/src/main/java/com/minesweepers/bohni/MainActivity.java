@@ -46,8 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @SuppressLint("SetTextI18n")
                     @Override
                     public void run() {
-                       statusTextView.setText("firebase available");
-                       statusTextView.setTextColor(Color.parseColor("#008302"));
+                        statusTextView.setText("firebase available");
+                        statusTextView.setTextColor(Color.parseColor("#008302"));
+
+                        FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
+                        if (currentUser != null) {
+                            Intent intent = new Intent(getApplicationContext(), HomeViewActivity.class);
+                            startActivity(intent);
+                        }
                     }
                 });
             }
